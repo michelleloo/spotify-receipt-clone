@@ -34,3 +34,13 @@ export interface Album {
     items: Track[];
   };
 }
+export interface User{
+  id: string;
+  display_name: string;
+  images?: [Image];
+  followers?: {
+    total: number;
+  };
+  country?: string;
+  product?: string;
+}

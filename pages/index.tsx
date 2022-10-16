@@ -1,15 +1,18 @@
-import type { NextPage } from 'next'
 import styles from '../styles/Home.module.scss'
 import { getSession, signOut } from "next-auth/react";
 import {GetServerSideProps} from 'next';
 import { isAuthenticated } from "../utils/isAuthenticated";
 import { customGet, topTracks } from "../utils/customGet";
-import  Albums from "../components/albums";
-import Tracks from "../components/trackList";
 import Receipt from '../components/receipt';
 import { useState, useEffect } from 'react';
+import {User} from '../types/spotifyTypes';
 
-export default function Home({ userProfile, userTopTracks}) {
+interface HomeProps {
+  userProfile: User;
+  userTopTracks: any;
+}
+
+export default function Home({ userProfile, userTopTracks}: HomeProps) {
 
   const [data, setData] = useState(userTopTracks ? userTopTracks : null);
   const [isLoading, setLoading] = useState(false)
