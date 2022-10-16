@@ -1,0 +1,28 @@
+.albums{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    .album{
+        width: 48%;
+        margin: 0 10px 20px;
+        .album__image{
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+        .album__name{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+        }
+        .album__artist{
+        margin-top: 5px;
+        font-size: 14px;
+        color: #999;
+        }
+    }
+}

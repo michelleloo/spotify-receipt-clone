@@ -1,0 +1,18 @@
+.receiptMain{
+    width:340px;
+    background-position: center;
+    padding: 4rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/ReceiptBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.hrLine {
+    width: 100%;
+    border: 1px dashed black;
+    border-style: none none dashed; 
+  }

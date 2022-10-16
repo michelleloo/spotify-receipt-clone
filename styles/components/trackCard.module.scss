@@ -1,0 +1,27 @@
+.trackCard{
+    width:400px;
+    height: 500px;
+    background-color: red;
+    margin: 4rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .trackCard__image{
+        width: 200px;
+        height: 200px;
+    }
+    .trackCard__title{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .trackCard__artist{
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+    }
+}
