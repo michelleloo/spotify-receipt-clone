@@ -1,5 +1,4 @@
 import { Track } from "../types/spotifyTypes";
-import styles2 from '../styles/components/tracks.module.scss';
 import TrackCard from "./trackCard";
 interface TrackProps {
     tracks: Track[];

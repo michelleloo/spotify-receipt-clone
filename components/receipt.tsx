@@ -1,6 +1,6 @@
 import { Track } from "../types/spotifyTypes";
 import styles from '../styles/components/receipt.module.scss';
-import TrackCard from "./trackCard";
+
 interface TrackProps {
     tracks: Track[];
     name: string;

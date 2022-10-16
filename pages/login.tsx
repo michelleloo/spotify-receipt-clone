@@ -1,5 +1,4 @@
 import {signIn} from 'next-auth/react';
-import Image from 'next/image';
 import styles from '../styles/pages/login.module.scss';
 export default function Login() {
     const handleLogin = () => {

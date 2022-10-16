@@ -38,7 +38,7 @@ export default function Home({ userProfile, userTopTracks}: HomeProps) {
     <div className={styles.main}>
       <div >
         <h1>Good morning {userProfile.display_name}!</h1>
-        <h2>Here's Your Order</h2>
+        <h2>Heres Your Order</h2>
       </div>
       <div>
         <button onClick={() => fetchData("long_term")}>Long Term</button>
